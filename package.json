@@ -22,5 +22,9 @@
     "galleryBanner": {
       "color": "#003c64",
       "theme": "light"
-    }    
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cafeduke/vscode-dukedark-theme.git"
+      }  
 }

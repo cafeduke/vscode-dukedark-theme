@@ -19,7 +19,7 @@
             }
         ]
     },
-    "icon": "./images/dukedark_icon_128.png",
+    "icon": "images/dukedark_icon_128.jpg",
     "galleryBanner": {
       "color": "#003c64",
       "theme": "light"

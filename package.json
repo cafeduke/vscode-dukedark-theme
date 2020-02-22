@@ -1,8 +1,8 @@
 {
     "name": "dukedark",
-    "displayName": "DukeDark",
+    "displayName": "Duke Dark",
     "description": "A dark theme inspired by Slack and VSDark themes.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher":"cafeduke",
     "engines": {
         "vscode": "^1.41.0"
@@ -10,22 +10,27 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "duke",
+        "dark",
+        "theme"
+    ],
+    "icon": "images/dukedark_icon_128.jpg",
+    "galleryBanner": {
+      "color": "#00283c",
+      "theme": "dark"
+    },    
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cafeduke/vscode-dukedark-theme.git"
+    },    
     "contributes": {
         "themes": [
             {
-                "label": "DukeDark",
+                "label": "Duke Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/DukeDark-color-theme.json"
             }
         ]
-    },
-    "icon": "images/dukedark_icon_128.jpg",
-    "galleryBanner": {
-      "color": "#003c64",
-      "theme": "light"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/cafeduke/vscode-dukedark-theme.git"
-      }  
+    }
 }

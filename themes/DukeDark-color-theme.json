@@ -8,6 +8,7 @@
 		"editor.selectionHighlightBackground": "#135564",
 		"editor.findMatchBackground": "#783c00",
 		"editor.findMatchHighlightBackground": "#005028",
+		"editor.lineHighlightBorder": "#003024",
 
 		"sideBar.background": "#003c64",
 		"sideBarSectionHeader.foreground":"#ffffff",

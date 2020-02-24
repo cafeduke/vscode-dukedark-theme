@@ -11,11 +11,11 @@ A dark color theme inspired by Dark(Visual Studio) and Slack themes.
 
 ### Overview
 #### Javascript
-![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/Themes/master/images/dukedark_overview.jpg)
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukedark-theme/master/images/dukedark_overview.jpg)
 
 ### Code close-up
 #### Python
-![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/Themes/master/images/dukedark_py_closeup.jpg)
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukedark-theme/master/images/dukedark_py_closeup.jpg)
 
 #### Java
-![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/Themes/master/images/dukedark_java_closeup.jpg)
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukedark-theme/master/images/dukedark_java_closeup.jpg)

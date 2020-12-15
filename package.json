@@ -2,7 +2,7 @@
     "name": "dukedark",
     "displayName": "Duke Dark",
     "description": "A dark theme inspired by Slack and VSDark themes.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher":"cafeduke",
     "engines": {
         "vscode": "^1.41.0"

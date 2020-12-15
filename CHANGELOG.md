@@ -1,6 +1,9 @@
 # Change Log
 Changes to the "dukedark" color theme.
 
+## 0.0.4
+ - Darker background color for list focus
+
 ## 0.0.3
 - Update icon.
 - Update references to images in VSCode market place.

@@ -6,7 +6,7 @@
 		"editor.foreground": "#ffffff",
 		"editor.selectionBackground": "#135564",
 		"editor.selectionHighlightBackground": "#135564",
-		"editor.findMatchBackground": "#783c00",
+		"editor.findMatchBackground": "#643c00",
 		"editor.findMatchHighlightBackground": "#005028",
 		"editor.lineHighlightBorder": "#003024",
 
@@ -18,8 +18,8 @@
 		"tab.activeBorderTop": "#fd971f",
 		"tab.activeBackground": "#001E28",
 
-		"list.focusBackground": "#6b9801",
-		"list.hoverBackground": "#6b9801",
+		"list.focusBackground": "#643c00",
+		"list.hoverBackground": "#507800",
 		"list.activeSelectionBackground": "#0078c8",                        
 		"list.inactiveSelectionBackground": "#00538a",
 		"activityBar.background": "#00283c",

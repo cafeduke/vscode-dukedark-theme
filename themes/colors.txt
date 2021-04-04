@@ -1,0 +1,7 @@
+Keyword       | Blue        | 5aaae6
+SpecialKeyword| Orange      | ffa000
+Classes       | Green       | 50dc50
+String        | ParrotGreen | a0f000
+Number        | Purple      | b478ff
+Operator      | Yellow      | e6dc78
+Annotation    | Brown       | ffb48c

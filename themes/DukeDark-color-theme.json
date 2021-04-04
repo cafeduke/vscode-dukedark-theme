@@ -9,22 +9,23 @@
 		"editor.findMatchBackground": "#643c00",
 		"editor.findMatchHighlightBackground": "#005028",
 		"editor.lineHighlightBorder": "#003024",
+		"editorLineNumber.activeForeground": "#ffa000",
 
 		"sideBar.background": "#003c64",
 		"sideBarSectionHeader.foreground":"#ffffff",
 		"sideBarSectionHeader.background": "#00283c",
 		"sideBar.foreground":"#DCDEDF",
 
-		"tab.activeBorderTop": "#fd971f",
+		"tab.activeBorderTop": "#ffa000",
 		"tab.activeBackground": "#001E28",
 
 		"list.focusBackground": "#643c00",
 		"list.hoverBackground": "#507800",
-		"list.activeSelectionBackground": "#0078c8",                        
+		"list.activeSelectionBackground": "#0078c8",
 		"list.inactiveSelectionBackground": "#00538a",
 		"activityBar.background": "#00283c",
 
-		"gitDecoration.addedResourceForeground": "#ffffff",      
+		"gitDecoration.addedResourceForeground": "#ffffff",
 		"gitDecoration.modifiedResourceForeground": "#ffffff",
 		"gitDecoration.deletedResourceForeground": "#ffffff",
 		"gitDecoration.untrackedResourceForeground": "#ffffff",
@@ -44,7 +45,7 @@
 				"source.groovy.embedded"
 			],
 			"settings": {
-				"foreground": "#D4D4D4"
+				"foreground": "#ffb48c"
 			}
 		},
 		{
@@ -66,20 +67,10 @@
 			}
 		},
 		{
-			"name":"Duke, python doc",
-			"scope": [
-				"comment",
-				"string.quoted.docstring.multi.python"
-			],
-			"settings": {
-				"foreground": "#608b4e"
-			}
-		},
-		{
 			"scope": "constant.language",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#fd971f"
+				"foreground": "#ffa000"
 			}
 		},
 		{
@@ -103,7 +94,7 @@
 		},
 		{
 			"name": "Tag name, CSS selector name",
-			"scope": [ 
+			"scope": [
 				"entity.name.tag",
 				"entity.name.tag.css",
 			],
@@ -178,7 +169,7 @@
 		{
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#fd971f"
+				"foreground": "#ffa000"
 			}
 		},
 		{
@@ -204,16 +195,16 @@
 			"scope": [
 				"markup.inline.raw",
 				"string.interpolated.backtick.shell"
-			],	
+			],
 			"settings": {
-				"foreground": "#fd971f"
+				"foreground": "#ffa000"
 			}
 		},
 		{
 			"name": "brackets of XML/HTML tags",
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#a0a0a0"
 			}
 		},
 		{
@@ -258,30 +249,8 @@
 				"fontStyle": "bold",
 				"foreground": "#5aaae6"
 			}
-		},		
-		{
-			"name": "Duke, defualt storage data types",
-			"scope": [
-				"storage",
-				"storage.type",
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#5aaae6"
-			}
 		},
-		{
-			"name":"Duke, user data types",
-			"scope": [
-				"storage.type.java",
-				"storage.type.generic.java",
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#50dc50"
-			}
-		},
-		{
+  	{
 			"scope": [
 				"storage.modifier",
 				"keyword.operator.noexcept"
@@ -291,23 +260,7 @@
 				"foreground": "#5aaae6"
 			}
 		},
-		{
-			"name":"Duke, all strings",
-			"scope": [
-				"string",
-				"string.tag",
-				"string.value",
-				"string.regexp",
-				"string.quoted.double.xml",
-				"entity.name.operator.custom-literal.string",
-				"meta.embedded.assembly"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#a0f000"
-			}
-		},
-		{
+  	{
 			"name": "String interpolation",
 			"scope": [
 				"punctuation.definition.template-expression.begin",
@@ -316,17 +269,6 @@
 			],
 			"settings": {
 				"foreground": "#5aaae6"
-			}
-		},
-		{
-			"name":"Duke, annotation",
-			"scope": [
-				"punctuation.definition.annotation",
-				"storage.type.annotation"
-			],
-			"settings": {
-				"foreground": "#fd971f",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -339,32 +281,6 @@
 			}
 		},
 		{
-			"name": "Duke, attribute name in CSS like config",
-			"scope": [
-				"variable.css",
-				"variable.scss",
-				"variable.other.less",
-				"source.coffee.embedded",
-				"support.type.property-name.css",
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#50dc50"
-			}
-		},
-		{
-			"name": "Duke, All keyword and core type like elements",
-			"scope": [
-				"keyword",
-				"support.type.vendored.property-name",
-				"support.type.property-name.json",
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#5aaae6"
-			}
-		},
-		{
 			"scope": "keyword.control",
 			"settings": {
 				"fontStyle": "bold",
@@ -374,7 +290,7 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#d4d4d4"
+				"foreground": "#e6dc78"
 			}
 		},
 		{
@@ -440,17 +356,132 @@
 			"scope": "variable.language",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#fd971f"
+				"foreground": "#ffa000"
+			}
+		},
+		{
+			"name": "Duke, defualt storage data types",
+			"scope": [
+				"storage",
+				"storage.type",
+				"support.type.primitive.ts"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#5aaae6"
+			}
+		},
+		{
+			"name":"Duke, user data types",
+			"scope": [
+				"storage.type.java",
+				"storage.type.generic.java",
+				"entity.name.type.ts",
+				"entity.other.inherited-class.python",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#50dc50"
+			}
+		},
+		{
+			"name":"Duke, all strings",
+			"scope": [
+				"string",
+				"string.tag",
+				"string.value",
+				"string.regexp",
+				"string.quoted.double.xml",
+				"entity.name.operator.custom-literal.string",
+				"meta.embedded.assembly"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#a0f000"
+			}
+		},
+		{
+			"name":"Duke, annotation",
+			"scope": [
+				"punctuation.definition.annotation",
+				"storage.type.annotation",
+				"meta.decorator"
+			],
+			"settings": {
+				"foreground": "#ffb48c"
+			}
+		},
+		{
+			"name": "Duke, attribute name -- CSS, Less",
+			"scope": [
+				"variable.css",
+				"variable.scss",
+				"variable.other.less",
+				"source.coffee.embedded",
+				"support.type.property-name.css",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#50dc50"
+			}
+		},
+		{
+			"name": "Duke, All keyword and core type like elements",
+			"scope": [
+				"keyword",
+				"support.type.vendored.property-name",
+				"support.type.property-name.json",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#5aaae6"
 			}
 		},
 		{
 			"name": "Duke, types inside comments",
-			"scope": [ 
+			"scope": [
 				"keyword.other.documentation.javadoc"
 			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#608B4e"
+			}
+		},
+  	{
+			"name": "Duke, instance function name",
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				"foreground": "#00e6f0"
+			}
+		},
+		{
+			"name":"Duke, python doc",
+			"scope": [
+				"comment",
+				"string.quoted.docstring.multi.python"
+			],
+			"settings": {
+				"foreground": "#608b4e"
+			}
+		},
+		{
+			"name":"Duke, typescript binding",
+			"scope": [
+				"entity.other.ng-binding-name"
+			],
+			"settings": {
+				"foreground": "#e6dc78"
+			}
+		},
+		{
+			"name":"Duke, typescript expression",
+			"scope": [
+				"expression.ng"
+			],
+			"settings": {
+				"foreground": "#ffb48c"
 			}
 		},
 	]

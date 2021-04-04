@@ -1,6 +1,10 @@
 # Change Log
 Changes to the "dukedark" color theme.
 
+## 0.0.5
+ - Added colors for function, operator and ng expression.
+ - Current line number is now Orange.
+
 ## 0.0.4
  - Darker background color for list focus
 

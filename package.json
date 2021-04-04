@@ -2,7 +2,7 @@
     "name": "dukedark",
     "displayName": "Duke Dark",
     "description": "A dark theme inspired by Slack and VSDark themes.",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher":"cafeduke",
     "engines": {
         "vscode": "^1.41.0"
@@ -19,11 +19,11 @@
     "galleryBanner": {
       "color": "#00283c",
       "theme": "dark"
-    },    
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/cafeduke/vscode-dukedark-theme.git"
-    },    
+    },
     "contributes": {
         "themes": [
             {
